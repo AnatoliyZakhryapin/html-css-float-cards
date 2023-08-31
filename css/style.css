@@ -8,11 +8,26 @@ RESET
     box-sizing: border-box;
 }
 
+img {
+    max-width: 100%;
+}
+
 .conteiner {
     max-width: 800px;
     margin: 0 auto;
 }
 
+.col {
+    float: left;
+    width: 33%;
+    margin-right: 20px;
+}
+
+.clearfix::after {
+	content: '';
+	display: table;
+	clear: both;
+}
 
 /*
 DEBUG
