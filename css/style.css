@@ -19,8 +19,13 @@ img {
 
 .col {
     float: left;
-    width: 33%;
-    margin-right: 20px;
+    width: calc((100% - 60px) / 3);
+    margin-right: 30px;
+    margin-bottom: 40px;
+}
+
+.col:nth-child(3n) {
+    margin-right: 0;
 }
 
 .clearfix::after {
@@ -29,6 +34,10 @@ img {
 	clear: both;
 }
 
+.card {
+	border: 1px solid rebeccapurple;
+	padding: 10px;
+}
 /*
 DEBUG
 */
@@ -41,7 +50,7 @@ DEBUG
 .debug .col {
     border: 2px solid rgb(240, 8, 8);
     padding: 10px;
-    min-height: 100px;
+    min-height: 60px;
 }
 
 
