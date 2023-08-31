@@ -8,6 +8,10 @@ RESET
     box-sizing: border-box;
 }
 
+body {
+    background-color: aquamarine;
+}
+
 img {
     max-width: 100%;
 }
@@ -15,6 +19,7 @@ img {
 .conteiner {
     max-width: 800px;
     margin: 0 auto;
+    background-color: rgb(173, 245, 151);
 }
 
 .col {
@@ -38,6 +43,11 @@ img {
 	border: 1px solid rebeccapurple;
 	padding: 10px;
 }
+
+.image {
+    border: 1px solid;
+}
+
 /*
 DEBUG
 */
@@ -50,7 +60,7 @@ DEBUG
 .debug .col {
     border: 2px solid rgb(240, 8, 8);
     padding: 10px;
-    min-height: 60px;
+    min-height: 150px;
 }
 
 
