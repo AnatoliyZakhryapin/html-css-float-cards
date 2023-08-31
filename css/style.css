@@ -46,7 +46,21 @@ img {
 
 .image {
     border: 1px solid;
+    display: inline-block;
 }
+
+.bg-black {
+    background-color: rgb(36, 34, 34);
+}
+
+.font-white {
+    color:white;
+}
+
+.font-blu {
+    color: rgb(43, 175, 236);
+}
+
 
 /*
 DEBUG
