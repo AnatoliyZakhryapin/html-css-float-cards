@@ -29,7 +29,7 @@ footer {
 TITLE
 */
 
-.main-title {
+.main-title h1{
     font-weight: 700;
     font-size: 50px;
     text-align: center;
@@ -83,7 +83,7 @@ CARD BOX
 	/*padding: 10px;*/
 }
 
-.image {
+.card-image {
     float: left;
     width: 120px;
     margin-right: 20px;
